@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>curi_description</name>
+  <version>0.0.1</version>
+  <description>URDF for CURI and its variants</description>
+
+  <author>Zhipeng Dong</author>
+  <maintainer email="zhipengdongneu@gmail.com">Zhipeng Dong</maintainer>
+  <maintainer email="ruihuang@cuhk.edu.hk">Rui Huang</maintainer>
+
+  <license>CreativeCommons-Attribution-NonCommercial-ShareAlike-4.0-International</license>
+
+  <url type="website">https://docs.curi.com/</url>
+  <url type="repository">https://github.com/clover-cuhk/curi</url>
+  <url type="bugtracker">https://github.com/clover-cuhk/curi/issues</url>
+  <url type="wiki">https://wiki.ros.org/curi_description</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <exec_depend>urdf</exec_depend>
+  <exec_depend>xacro</exec_depend>
+</package>
